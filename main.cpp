@@ -7,7 +7,5 @@ int main() {
   std::list<Node> cities = TSP::constructCities(filename);
   auto result = Time::timeAndExecute<TSP::Tour, std::list<Node>, size_t>(TSP::nearestNeighbor, cities, 1022);
   // result.summarize();
-  std::cout << "hello world";
-
   return 0;
 }
