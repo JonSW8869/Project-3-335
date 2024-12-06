@@ -111,6 +111,6 @@ Total:
 */
 TSP::Tour TSP::nearestNeighbor(std::list<Node> cities, const size_t &start_id)
 {
-  Tour t;
+  TSP::Tour t = Tour();
   return t;
 }
